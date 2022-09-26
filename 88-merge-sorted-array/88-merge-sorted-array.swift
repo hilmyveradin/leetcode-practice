@@ -16,6 +16,7 @@ class Solution {
             writingIndex -= 1
         }
         
+        // Slicing leftovers from nums2
         if n > -1 {
             nums1[0...n] = nums2[0...n]
         }
